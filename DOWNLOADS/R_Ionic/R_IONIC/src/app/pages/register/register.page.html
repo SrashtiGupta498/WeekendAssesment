@@ -1,28 +1,29 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color ="success">
     <ion-title>Register</ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
+  <div class ="flex-full">
   <ion-card>
     <ion-card-header>
       <ion-card-title>What do you want ?</ion-card-title>
     </ion-card-header>
-    <ion-list>
+    <ion-card-content>
       <ion-radio-group value="strawberries">
         <ion-item>
-          <ion-label>Grapes</ion-label>
-          <ion-radio slot="end" value="grapes"></ion-radio>
+          <ion-label>BUY</ion-label>
+          <ion-radio value="CLIENT" slot="end"></ion-radio>
         </ion-item>
     
         <ion-item>
-          <ion-label>Strawberries</ion-label>
-          <ion-radio slot="end" value="strawberries"></ion-radio>
+          <ion-label>SELL</ion-label>
+          <ion-radio value="PARTNER" slot="end" ></ion-radio>
         </ion-item>
       
       </ion-radio-group>
-    </ion-list>
-
+      
+    </ion-card-content>
     <ion-card>
       <ion-card-header>
         <ion-card-title>Contact</ion-card-title>
@@ -83,7 +84,6 @@
   </ion-item>
 </ion-card>
 <ion-button size ="full" color="success"></ion-button>
+</div>
 </ion-content>
-<ion-content>
 
-</ion-content>
