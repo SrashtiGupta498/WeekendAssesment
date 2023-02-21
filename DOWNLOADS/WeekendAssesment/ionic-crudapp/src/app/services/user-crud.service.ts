@@ -61,8 +61,7 @@ export class UserCrudService {
         tap(_ => console.log(`User deleted: ${id}`)),
         catchError(this.handleError<User[]>('Delete user'))
       );
-  }
-
+      }
 
 
   private handleError<T>(operation = 'operation', result?: T) {
