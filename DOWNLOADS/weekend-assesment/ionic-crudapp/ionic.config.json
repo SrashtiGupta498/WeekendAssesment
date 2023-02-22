@@ -1,0 +1,7 @@
+{
+  "name": "ionic-crudapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
